@@ -636,8 +636,7 @@ export default function App() {
             </div>
             <div className="text-center mt-16 mb-16 md:mb-24">
               <h3 className="text-3xl md:text-5xl font-bold mb-6 font-serif leading-tight">Choose Your Blessing</h3>
-              <p className="text-xl md:text-2xl text-white/60 font-medium leading-relaxed mb-12">Exclusive wallpapers to attract positive energy.<br></br>Tap one below — it's yours.
-</p>
+              <p className="text-xl md:text-2xl text-white/60 font-medium leading-relaxed mb-12">Exclusive wallpapers to attract positive energy.<br></br>Tap one below — it's yours.<br></br><br></br>✦ Only for early supporters</p>
               <div className="grid md:grid-cols-3 gap-8 md:gap-10">
                 <button
                   onClick={() => window.open('https://drive.google.com/drive/folders/1Atw1bnp0OivVQba40DzAXzpYhWGaNidI?usp=sharing', '_blank')}
