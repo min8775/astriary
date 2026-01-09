@@ -24,11 +24,12 @@ export const REWARD_TIERS: ComparisonTier[] = [
     spots: 60,
     discount: '62% OFF',
     benefits: [
-      '62% Discount ($180 value)',
-      '3 Basic Diary Decorations',
-      '5 Deeper Dives / month',
-      'Monthly Cosmic Reports'
+      'Unlock 62% savings on annual membership (originally $180)',
+      'Access to 3 unique basic diary decorations',
+      'Receive 5 in-depth "Deeper Dives" insights monthly',
+      'Get comprehensive monthly cosmic reports'
     ],
+    description: 'Perfect for those beginning their cosmic journey, offering essential tools and insights to align with the stars.',
     features: {
       betaPriority: false,
       voiceJournaling: false,
@@ -47,14 +48,15 @@ export const REWARD_TIERS: ComparisonTier[] = [
     spots: 40,
     discount: '70% OFF',
     benefits: [
-      '70% Discount ($463 value)',
-      'Beta Priority Access',
-      'Voice Journaling Enabled',
-      'Unlimited Diary Decorations',
-      '3 Exclusive Themes (Forever)',
-      'Unlimited Deeper Dives',
-      'Weekly + Monthly Reports'
+      'Massive 70% discount on annual membership (originally $463)',
+      'Exclusive beta priority access for new features',
+      'Full voice journaling capabilities included',
+      'Unlimited access to all diary decorations',
+      'Own 3 exclusive premium themes forever',
+      'Enjoy unlimited "Deeper Dives" for profound insights',
+      'Receive detailed weekly and monthly cosmic reports'
     ],
+    description: 'The ultimate package for true cosmic explorers, providing unparalleled access to all Astriary features and exclusive content.',
     features: {
       betaPriority: true,
       voiceJournaling: true,

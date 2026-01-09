@@ -626,6 +626,50 @@ export default function App() {
           </div>
         </section>
 
+        <section id="rewords" className="py-24 md:py-40 px-6 bg-astro-dark text-white scroll-mt-28">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center md:mb-0">
+              <h2 className="text-4xl md:text-8xl font-serif font-bold mb-6 md:mb-8 leading-tight">A Celestial Gift<br></br>for Our First Travelers</h2>
+              <p className="text-2xl md:text-4xl font-bold text-white/60 italic font-serif">We are deeply grateful for your patience<br></br>and for joining this cosmic journey with ASTRIARY.<br></br>Your support as a founding member is<br></br>the star that guides our path.</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 md:gap-10">
+            </div>
+            <div className="text-center mt-16 mb-16 md:mb-24">
+              <h3 className="text-3xl md:text-5xl font-bold mb-6 font-serif leading-tight">Carry the Universe’s<br></br>Good Fortune with You</h3>
+              <p className="text-xl md:text-2xl text-white/60 font-medium leading-relaxed mb-12">To express our thanks,<br></br>we’ve created exclusive mobile wallpapers<br></br>designed to attract positive energy<br></br>in Love, Wealth, and Health.<br></br><br></br>Download your cosmic inspiration below.</p>
+              <div className="grid md:grid-cols-3 gap-8 md:gap-10">
+                <button
+                  onClick={() => window.open('https://drive.google.com/drive/folders/1Atw1bnp0OivVQba40DzAXzpYhWGaNidI?usp=sharing', '_blank')}
+                  className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
+                >
+                  <div className="absolute inset-0 bg-astro-main/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <Heart size={48} className="text-astro-accent mx-auto mb-4 relative z-10" />
+                  <span className="text-xl md:text-3xl font-bold text-white relative z-10">Love</span>
+                  <span className="block text-sm text-white/60 mt-2 relative z-10">Harmonize your heart and soul</span>
+                </button>
+                <button
+                  onClick={() => window.open('https://drive.google.com/drive/folders/1rFTGtBrBV7KUFfsDr2mqK5yMpnfGmxFa?usp=sharing', '_blank')}
+                  className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
+                >
+                  <div className="absolute inset-0 bg-astro-main/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <Zap size={48} className="text-astro-accent mx-auto mb-4 relative z-10" />
+                  <span className="text-xl md:text-3xl font-bold text-white relative z-10">Money</span>
+                  <span className="block text-sm text-white/60 mt-2 relative z-10">Invite abundance and prosperity</span>
+                </button>
+                <button
+                  onClick={() => window.open('https://drive.google.com/drive/folders/1-VqgldK7bBYtnYSjL7wwuKaCeDnA8bga?usp=sharing', '_blank')}
+                  className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
+                >
+                  <div className="absolute inset-0 bg-astro-main/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <ShieldCheck size={48} className="text-astro-accent mx-auto mb-4 relative z-10" />
+                  <span className="text-xl md:text-3xl font-bold text-white relative z-10">Health</span>
+                  <span className="block text-sm text-white/60 mt-2 relative z-10">Protect your inner balance and vitality</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Roadmap Detailed Section */}
         <section id="roadmap" className="py-24 md:py-40 px-6 bg-white overflow-hidden scroll-mt-28">
           <DecorativeElements />

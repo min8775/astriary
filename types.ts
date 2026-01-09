@@ -4,6 +4,7 @@ export interface RewardTier {
   name: string;
   price: number;
   benefits: string[];
+  description: string;
   isPopular?: boolean;
 }
 
