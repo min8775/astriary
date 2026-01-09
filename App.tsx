@@ -527,14 +527,14 @@ export default function App() {
             <FundingTracker />
 
             {/* Comparison Table */}
-            <div className="max-w-6xl mx-auto overflow-hidden rounded-[2.5rem] md:rounded-[4rem] bg-white editorial-shadow border border-astro-main/10">
+            <div className="max-w-6xl mx-auto overflow-hidden bg-white editorial-shadow border border-astro-main/10">
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse min-w-[320px]">
                   <thead>
                     <tr className="bg-astro-dark text-white">
                       <th className="p-3 md:p-10 text-sm md:text-2xl font-serif border-r border-white/10 w-1/4">Features</th>
                       {REWARD_TIERS.map((tier: any) => (
-                        <th key={tier.id} className={`p-2 md:p-10 text-center relative border-r last:border-r-0 border-white/10 ${tier.isPopular ? 'bg-astro-main/5' : ''}`}>
+                        <th key={tier.id} className={`h-[180px] p-2 md:p-10 text-center relative border-r last:border-r-0 border-white/10 ${tier.isPopular ? 'bg-astro-main/5' : ''}`}>
                           {tier.isPopular && (
                             <div className="absolute -top-0 left-0 w-full bg-astro-main py-1.5 text-[7px] md:text-[10px] uppercase font-black tracking-[0.1em] md:tracking-[0.3em] text-white shadow-lg z-20">
                               RECOMMENDED BEST VALUE ⭐
@@ -735,7 +735,7 @@ export default function App() {
             <div className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-full flex items-center justify-center shadow-lg shadow-white/10"><Moon className="w-6 h-6 md:w-8 md:h-8 text-astro-dark fill-current" /></div>
             <span className="font-bold text-2xl md:text-4xl tracking-[0.1em] uppercase font-serif">Astriary</span>
           </div>
-          <div className="text-center md:text-right"><p className="text-white/40 font-black uppercase tracking-[0.4em] text-[10px] mb-4">Stay Connected</p><p className="text-xl md:text-2xl font-bold italic font-serif">@astriary_cosmic</p></div>
+          <div className="text-center md:text-right"><p className="text-white/40 font-black uppercase tracking-[0.4em] text-[10px] mb-4">Stay Connected</p><p className="text-xl md:text-2xl font-bold italic font-serif"><a href="https://www.instagram.com/astriary.official/" target="_blank" rel="noopener noreferrer">@astriary.official</a></p></div>
         </div>
         <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 text-center text-[10px] font-black uppercase tracking-[0.6em] text-white/20">© 2026 ASTRIARY COSMIC SYSTEMS | ALL SECRETS STAY PRIVATE</div>
       </footer>

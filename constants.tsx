@@ -18,7 +18,7 @@ export interface ComparisonTier extends RewardTier {
 export const REWARD_TIERS: ComparisonTier[] = [
   {
     id: 'basic',
-    name: 'Super Early Bird Basic',
+    name: 'Super Early Bird Basic (Yearly)',
     price: 69,
     originalPrice: 180,
     spots: 60,
@@ -41,7 +41,7 @@ export const REWARD_TIERS: ComparisonTier[] = [
   },
   {
     id: 'premium',
-    name: 'Super Early Bird Premium',
+    name: 'Super Early Bird Premium (Yearly)',
     price: 139,
     originalPrice: 463,
     spots: 40,
