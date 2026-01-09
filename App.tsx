@@ -638,7 +638,7 @@ export default function App() {
               <h3 className="text-3xl md:text-5xl font-bold mb-6 font-serif leading-tight">Choose Your Blessing</h3>
               <p className="text-xl md:text-2xl text-white/60 font-medium leading-relaxed mb-12">Exclusive wallpapers to attract positive energy.<br></br>Tap one below — it's yours.<br></br><br></br>✦ Only for early supporters</p>
               <div className="grid md:grid-cols-3 gap-8 md:gap-10">
-                <button
+                <button id="btn-relationship"
                   onClick={() => window.open('https://drive.google.com/drive/folders/1Atw1bnp0OivVQba40DzAXzpYhWGaNidI?usp=sharing', '_blank')}
                   className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
                 >
@@ -647,7 +647,7 @@ export default function App() {
                   <span className="text-xl md:text-3xl font-bold text-white relative z-10">Relationship</span>
                   <span className="block text-sm text-white/60 mt-2 relative z-10">Better Bonds</span>
                 </button>
-                <button
+                <button id ="btn-wealth"
                   onClick={() => window.open('https://drive.google.com/drive/folders/1rFTGtBrBV7KUFfsDr2mqK5yMpnfGmxFa?usp=sharing', '_blank')}
                   className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
                 >
@@ -656,7 +656,7 @@ export default function App() {
                   <span className="text-xl md:text-3xl font-bold text-white relative z-10">Wealth</span>
                   <span className="block text-sm text-white/60 mt-2 relative z-10">Money Flows</span>
                 </button>
-                <button
+                <button id="btn-health"
                   onClick={() => window.open('https://drive.google.com/drive/folders/1-VqgldK7bBYtnYSjL7wwuKaCeDnA8bga?usp=sharing', '_blank')}
                   className="group relative p-8 bg-gradient-to-b from-astro-main/20 to-astro-main/10 rounded-[2rem] text-center border border-astro-main/30 shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95"
                 >
