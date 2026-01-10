@@ -600,6 +600,7 @@ export default function App() {
                       {REWARD_TIERS.map((tier: any) => (
                         <td key={tier.id} className="p-2 md:p-10 text-center border-r last:border-r-0 border-astro-bg">
                           <button
+                            id={`btn-claim-${tier.id}`}
                             onClick={handleJoinClick}
                             className={`w-full py-5 md:py-10 rounded-2xl md:rounded-full font-black text-xs md:text-2xl tracking-tighter md:tracking-widest uppercase transition-all shadow-xl hover:-translate-y-1 ${tier.isPopular ? 'bg-astro-main text-white hover:bg-astro-dark' : 'bg-astro-dark text-white hover:bg-astro-main'}`}
                           >
